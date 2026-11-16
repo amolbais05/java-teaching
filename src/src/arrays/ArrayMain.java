@@ -11,11 +11,6 @@ public class ArrayMain
         colors[0] = 101;
         colors[1] = 102;
 
-       /* System.out.println("mark1: " + marks[0]);
-        System.out.println("mark2: " + marks[1]);
-        System.out.println("mark3: " + marks[2]);
-        System.out.println("mark4: " + marks[3]);
-        System.out.println("mark5: " + marks[4]);*/
 
         marks[2] = 99;
        // System.out.println("new mark3: " + marks[2]);
@@ -33,6 +28,10 @@ public class ArrayMain
         }
         System.out.println(k);
 
+        // average
+
+        int average = k / marks.length;
+        System.out.println(average);
 
     }
 }
