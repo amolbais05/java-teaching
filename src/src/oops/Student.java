@@ -5,12 +5,14 @@ public class Student
     public String name;
     public int rollNumber;
     public double marks;
+    public String city;
 
-    public Student(String name,  int rollNumber, double marks)
+    public Student(String name,  int rollNumber, double marks, String city)
     {
         this.name = name;
         this.rollNumber = rollNumber;
         this.marks = marks;
+        this.city = city;
     }
 
     public double getMarks()
